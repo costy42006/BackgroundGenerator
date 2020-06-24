@@ -1,0 +1,51 @@
+/* *****Stilizare tabel***** */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: right;
+}
+
+#prezentaSR {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#prezentaSR td,
+#prezentaSR th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#prezentaSR tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#prezentaSR td:hover {
+    background-color: #ddd;
+}
+
+#prezentaSR th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* ***** Stilizare legendă tabel***** */
+
+#luna {
+    font-size: 2vw;
+}
+
+
+/* ***** Stilizare titlu pagină***** */
+
+#titlu {
+    color: saddlebrown;
+    font-size: 2em;
+    text-align: center;
+}
