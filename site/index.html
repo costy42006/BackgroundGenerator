@@ -1,81 +1,16 @@
 <!DOCTYPE html>
-<html lang="ro">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Prezența congregației">
-    <meta name="keywords" content="prezența">
-    <meta name="author" content="Constantin Crîng">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/maincss.css">
-    <title>Prezența congregației</title>
-    <link rel="ICON" href="favicon.ico" type="image/ico"/>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body>
-    <div id="logo">
-        <img src="images/logo.png" alt="Logo image" width="100" height="100"> 
-    </div><br>
-    <div>
-        <h1 id="titlu">Prezența congregației Curtea de Argeș <span id="cyear"></span></h1>
-    </div><br><br><br>
-        <p id="reamintire"><b>Important:</b> Introduceți prezența în căsuța corespunzătoare, apoi apăsați butonul Trimiteți.</p><br>
-    <div>
-        <p>Prezența întrunirii din timpul săptămânii(VCP):</p>
-        <input type="number" id="myInput" value="">
-        <button type="button" onclick="myFunction()">Trimiteți</button>
-    </div><br>
-    <div>
-        <p>Prezența întrunirii din timpul săptămânii(TV):</p>
-        <input type="number" id="myInputb" value="">
-        <button type="button" onclick="myFunctionb()">Trimiteți</button>
-    </div><br>
-    <table id="prezentaSR">
-        <caption id="luna">Iulie <span id="cyear2"></span></caption>
-        <tr>
-            <th>Data</th>
-            <th>VCP</th>
-            <th>TV</th>
-            <th>Total/Media VCP</th>
-            <th>Total/Media TV</th>
-        </tr>
-        <tr>
-            <td></td>
-            <td id="myTD"></td>
-            <td id="myTDb"></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    <script src="js/mainjs.js"></script>
+<body id="gradient">
+	<h1>Background Generator</h1>
+	<input id ="c1" class="color1" type="color" name="color1" value="#00ff00">
+	<input id="c2" class="color2" type="color" name="color2" value="#ff0000">
+	<h2>Current CSS Background</h2>
+	<h3>linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));</h3>
+    <button id=genButton>Random Gradient Generator</button>
+	<script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
