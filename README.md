@@ -1,2 +1,2 @@
-# coursera-courses
-Coursera courses
+# Cool Background Generator
+
